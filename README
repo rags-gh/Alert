@@ -1,0 +1,65 @@
+This is a simple app that notifies you by vibrating and activating in your notification panel. It's just for a simple reminder. The purpose of this app is to add a timer to your phone that uses a very insignificant amount of RAM and memory.
+I've tested this on Android 2.2.1, 2.3.7 and 4.0.3. Worked perfectly!
+
+It's a pretty simple app and my sole purpose is for getting better skills in Java, app development, Android and Git. Thanks to anyone who uses / installs!
+
+==-Permissions-==
+
+-Vibrate = Self-Explanatory
+
+==-Planned Updates (x means implemented)-==
+
+-Add custom notification
+x-Finish notification intents
+x-Add a better notification
+-Add custom vibration length
+x-Add better images
+x-Add an actual alert system
+x-Add universal LED support
+x-Finish png
+x-Clean up code
+x-Add sound
+x-Add ICS and Gingerbread support
+x-Add Toast notifications
+x-Add current time
+x-Add Action Bar
+x-Add Menu (Action Bar borked the button on my Evo :( )
+x-Add Holo Theme
+-Fix the annoying white background on image!
+-Add XHDPI images
+-Make it look nicer
+
+==-CHANGELOG-==
+
+1.2 (2/11/12)
+-Added Action Bar (Press Icon to set alarm)
+-Menu
+-UI Overhaul
+-Holo theme
+
+1.1.6 (2/9/12)
+-Notification cancels when clicked
+
+1.1.5 (2/8/12)
+-Better images
+-1/2 of notification fixed
+-Opt images
+
+1.1.4 (2/6/12)
+-Added notification lights
+-Alert stuff added
+
+1.1.3 (2/6/12)
+-Added Toast notifications
+-Cleaned up code
+
+1.1.2 (2/4/12)
+-Added sound
+
+1.1.1(2/3/12)
+-Added additional images
+-Added current time
+-Optimized code
+
+1.1 (2/3/12)
+-Added Gingerbread and ICS support
