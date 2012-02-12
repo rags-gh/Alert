@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alert</string>
+    <string name="time">The current time is:</string>
+    <string name="alert">Set Alert</string>
+</resources>
