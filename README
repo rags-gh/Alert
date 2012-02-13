@@ -25,11 +25,16 @@ x-Add current time
 x-Add Action Bar
 x-Add Menu (Action Bar borked the button on my Evo :( )
 x-Add Holo Theme
--Fix the annoying white background on image!
--Add XHDPI images
+x-Fix the annoying white background on image!
+x-Add XHDPI images
 -Make it look nicer
 
 ==-CHANGELOG-==
+
+1.2.1 (2/12/12)
+-Code now Open Source!
+-Fixed annoying white bg
+-Added xhdpi images
 
 1.2 (2/11/12)
 -Added Action Bar (Press Icon to set alarm)
