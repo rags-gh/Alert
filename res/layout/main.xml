@@ -3,27 +3,32 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
+<!-- Heading of the applications screen -->
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:text="Pick the Date and Time for your alert" />
+<!-- The current time clock -->
 <DigitalClock
     android:id="@+id/digitalClock1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:text="DigitalClock" />
+<!-- The date (with a calendar in API 11+) -->
 <DatePicker
     android:id="@+id/datePicker1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center" />
+<!-- Time, full with hour min and AM/PM -->
 <TimePicker
     android:id="@+id/timePicker1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center" />
+<!-- This is the button where you click to set your alert -->
 <Button
     android:id="@+id/btnSetAlarm"
     android:layout_width="wrap_content"

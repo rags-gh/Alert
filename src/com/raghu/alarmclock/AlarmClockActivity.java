@@ -1,3 +1,8 @@
+/**
+ * This is the main Activity of the application
+ * @author Raghu Prabhakar
+ */
+
 package com.raghu.alarmclock;
 
 import android.app.Activity;
@@ -19,6 +24,7 @@ import android.widget.Toast;
 
 public class AlarmClockActivity extends Activity 
 {    
+	// Date, Time picker
 	TimePicker timePicker;
 	DatePicker datePicker;
     @Override
@@ -28,15 +34,19 @@ public class AlarmClockActivity extends Activity
     	
     	super.onCreate(savedInstanceState);
         	setContentView(R.layout.main);
+        	
         	// Button view
         	Button btnOpen = (Button) findViewById(R.id.btnSetAlarm);
         	btnOpen.setOnClickListener(new View.OnClickListener() 
         	{
+        		// What to do once clicked
         		public void onClick(View v)
-        		{                
+        		{        
+        			// Store the users time and date
         			timePicker = (TimePicker) findViewById(R.id.timePicker1);
         			datePicker = (DatePicker) findViewById(R.id.datePicker1);
         			
+        			// Start the alarm service
         			AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
         			
         			// Get current date and time
@@ -67,20 +77,33 @@ public class AlarmClockActivity extends Activity
         }); 
     }
     
+    /**
+     * Overridden menu for Action bar
+     * Need to implement this better.. WAY better!
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) 
     {
+    	// Add my menu button
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.holo, menu);
         return true;
     }
     
+    /**
+     * What to do when button is pressed in the menu
+     * Not very efficient.. Have to work on it.
+     * Need a better Action Bar implementation
+     */
+    
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item)
 	{
+		// Store the users time and date
 		timePicker = (TimePicker) findViewById(R.id.timePicker1);
 		datePicker = (DatePicker) findViewById(R.id.datePicker1);
 		
+		// Start the alarm service
 		AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 		
 		// Get current date and time
