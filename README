@@ -1,3 +1,6 @@
+App available at: https://market.android.com/details?id=com.raghu.alarmclock
+Or search the marketplace with "Raghu Prabhakar" (No quotes)
+
 This is a simple app that notifies you by vibrating and activating in your notification panel. It's just for a simple reminder. The purpose of this app is to add a timer to your phone that uses a very insignificant amount of RAM and memory.
 I've tested this on Android 2.2.1, 2.3.7 and 4.0.3. Worked perfectly!
 
@@ -30,6 +33,14 @@ x-Add XHDPI images
 -Make it look nicer
 
 ==-CHANGELOG-==
+
+1.2.2 (2/29/12)
+-Leap Year Release!
+-50 User's Release! (Thank you all!)
+-Cleaned up code
+-Added GPLv3
+-Removed menu (No longer needed)
+-ActionBar still works on 3.0+! Just no annoying Menu Button
 
 1.2.1 (2/12/12)
 -Code now Open Source!
